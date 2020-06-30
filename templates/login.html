@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+<h3>Login - ავტორიზაცია </h3>
+
+<form method="post" action="" style="width: 50%">
+    <input type="text" name="user" placeholder="username" class="form-control" > <br>
+    <input type="text" name="last" placeholder="lastname" class="form-control" > <br>
+    <button type="submit" class="btn btn-primary">Sign In</button>
+</form>
+
+{% endblock %}
