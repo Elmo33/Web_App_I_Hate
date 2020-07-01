@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block title %} Home page {% endblock %}
+
+{% block content %}
+    <br>
+    <h2 style="text-align: center">Here's a list of kind people who decided to share their passwords and emails</h2>
+    <ul></ul>
+    {% for i in user_list %}
+        <li style="text-align: center;">{{ i }}</li>
+    {% endfor %}
+{% endblock %}

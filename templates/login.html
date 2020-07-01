@@ -6,7 +6,7 @@
     {#    <h3>Login - ავტორიზაცია </h3>#}
 
     <ul class="nav justify-content-center">
-        <form>
+        <form method="post">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" name="email" class="form-control" id="exampleInputEmail1"
@@ -22,10 +22,5 @@
         </form>
     </ul>
 
-    <form method="post" action="" style="width: 50%">
-        <input type="text" name="user" placeholder="username" class="form-control"> <br>
-        <input type="text" name="last" placeholder="lastname" class="form-control"> <br>
-        <button type="submit" class="btn btn-primary">Add User</button>
-    </form>
 
 {% endblock %}
